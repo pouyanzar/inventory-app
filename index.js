@@ -95,24 +95,9 @@ app.post('/warehouses/:id', (req, res) => {
         return res.json(newWarehouseList);
     }
 
-    // Solution Two: Doesn't work
-    // if (typeof req.body.address === 'string' && req.body.address !== "") {
-    //     console.log(req.body.address)
-    //     return res.json(newObject); 
-    // } 
-    // if (typeof req.body.contact === 'string' && req.body.contact !== "") {
-    //     return res.json(newObject);
-    // } 
-    // if (typeof req.body.type === 'string' && req.body.type !== "") {
-    //     return res.json(newObject);
-    // } 
-    // else {
-    //     return res.status(400).send("404 Status Error. Opps, something went wrong. Please be sure no fields are left empty and only enter what's asked."); 
-    // }
+    
 });
 
-
-// DELETE Item
 
 // set up a DELETE route for the path '/inventory/:id/
 app.delete('/inventory/:id', (req,res) => {
