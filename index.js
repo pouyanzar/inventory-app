@@ -15,6 +15,7 @@ app.use(function(req, res, next) {
 });
 
 app.use(express.static('public'));
+const PORT = process.env.PORT || 8080;
 
 //GET All Warehouses
 app.get('/warehouses', (req,res)=>{
@@ -123,6 +124,7 @@ app.delete('/inventory/:id', (req,res) => {
 });
 
 // Server Listening...
-app.listen(8080, () => {
-    console.log('Server running on 8080...');
+
+app.listen(PORT, () => {
+    console.log(`Server running on ${PORT}`);
 });
