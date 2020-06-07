@@ -1,0 +1,48 @@
+[
+    {
+        "warehouse_id": 1,
+        "type": "Dairy",
+        "address_street": "123 Main Street West",
+        "city": "Toronto",
+        "country": "Canada",
+        "postal_code": "M6J 2H2",
+        "manager_name": "Clark Kent",
+        "phone_num": "+1 416 678 2345",
+        "email": "superman@icecreams.com"
+
+    },
+    {
+        "warehouse_id": 2,
+        "type": "Sorbet",
+        "address_street":  "456 Pine Street",
+        "city": "Montreal",
+        "country": "Canada",
+        "postal_code": "H2W 1S3",
+        "manager_name": "Bruce Wayne",
+        "phone_num": "+1 514 923 1106",
+        "email": "batman@icecreams.com"
+
+    },
+    {
+        "warehouse_id": 3,
+        "type": "Frozen Yogurt",
+        "address_street": "789 Elm Street",
+        "city": "Ottawa", 
+        "country": "Canada",
+        "postal_code": "K2M 9N5",
+        "manager_name": "Hal Jordan",
+        "phone_num": "+1 613 413 0093",
+        "email": "greenlantern@icecreams.com"
+    },
+    {
+        "warehouse_id": 4,
+        "type": "No Added Sugar",
+        "address_street": "123 Stephen Street",
+        "city": "Kingston", 
+        "country": "Canada",
+        "postal_code": "K7K 2C6",
+        "manager_name": "Wally West",
+        "phone_num": "+1 343 923 1106",
+        "email": "flash@icecreams.com"
+    }
+]
